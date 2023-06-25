@@ -1,0 +1,28 @@
+/* Drawer.css */
+.sidebar {
+	height: 100vh; /* Set the sidebar height to 100% of the viewport */
+	width: 15rem; /* Let the width adjust to the content */
+	display: flex;
+	flex-direction: column;
+	background-color: white; /* Set the sidebar background color to white */
+	margin-top: 4rem; /* Add margin-top of 5rem */
+	position: fixed;
+	justify-content: center; /* Add
+	align-items: center;	
+}
+
+.sidebar .pro-sidebar-content {
+	flex-grow: 1; /* Expand the content to fill the remaining space */
+}
+
+.sidebar .pro-sidebar-menu {
+	padding: 0;
+}
+
+.sidebar .pro-sidebar-menu .pro-menu-item {
+	color: #000; /* Set the default font color */
+}
+
+.sidebar .pro-sidebar-menu .pro-menu-item.selected {
+	color: #6d44bc; /* Set the font color for selected items */
+}

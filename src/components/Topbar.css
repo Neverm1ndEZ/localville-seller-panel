@@ -1,0 +1,80 @@
+.navbar {
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+	width: 100vw;
+	height: 4rem;
+	position: fixed !important;
+	top: 0;
+	z-index: 1;
+}
+
+.logo {
+	cursor: pointer;
+	padding-left: 4rem;
+}
+
+.profile-logo {
+	width: 2.0625rem;
+	height: 2.0625rem;
+	flex-shrink: 0;
+	padding-right: 5px;
+}
+
+.navbar_img {
+	width: 6.625rem;
+	height: 2.25rem;
+	flex-shrink: 0;
+}
+
+.nav-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.notify-text {
+	padding-right: 5rem;
+	display: flex;
+	align-items: center;
+	color: #2f3367;
+	font-size: 0.68488rem;
+	font-family: Poppins;
+	font-weight: 500;
+}
+
+.notify-profile {
+	display: flex;
+	flex-direction: row;
+	flex-shrink: 0;
+	align-items: center;
+}
+
+.notify-profile-contents {
+	padding: 0 5rem 0 0;
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+}
+
+.notify-profile-contents h4 {
+	margin: 0;
+	padding: 0;
+	color: #2f3367;
+	font-size: 0.58931rem;
+	font-family: Open Sans;
+	font-weight: 700;
+}
+
+.notify-profile-contents p {
+	margin: 0;
+	padding: 0;
+	color: #2f3367;
+	font-size: 0.51563rem;
+	font-family: Open Sans;
+}
+
+@media screen and (max-width: 768px) {
+}

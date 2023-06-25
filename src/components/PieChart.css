@@ -1,0 +1,17 @@
+.donutchart-innertext-label,
+.donutchart-innertext-value {
+	visibility: hidden;
+}
+
+.chart-card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 45rem;
+	height: 31rem;
+	background-color: #fff;
+	box-shadow: 0px 2px 20px 1px rgba(0, 0, 0, 0.15);
+	margin: 0.58rem 0;
+	border-radius: 10px;
+}
